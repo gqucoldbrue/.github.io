@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #002147;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #004080;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 2em;
+        }
+        .about, .company, .goals {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #004080;
+        }
+        .image {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#company">Company Info</a>
+        <a href="#goals">Personal Goals</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm passionate about sustainability, technology, the outdoors, and cars. My journey has been fueled by a desire to contribute positively to our planet while exploring the fascinating world of technology and innovation.</p>
+        <img src="path/to/nature-hike-image.jpg" alt="Group Nature Hike" class="image">
+    </section>
+    <section id="company" class="company">
+        <h2>Company Info</h2>
+        <p>Our company is dedicated to advancing sustainable practices and technologies. We believe in creating solutions that not only address current environmental challenges but also pave the way for a greener future.</p>
+        <img src="path/to/technology-lab-image.jpg" alt="Scientists Working in Lab" class="image">
+    </section>
+    <section id="goals" class="goals">
+        <h2>Personal Goals</h2>
+        <h3>Passion for Sustainability</h3>
+        <p>My goal is to lead initiatives that drive sustainable practices across various sectors, ensuring a healthier planet for future generations.</p>
+        <h3>Passion for Technology</h3>
+        <p>I am constantly exploring new technological advancements that can help solve environmental issues and improve our quality of life.</p>
+        <h3>Love for the Outdoors</h3>
+        <p>Spending time in nature is not only a personal joy but also a reminder of why sustainability is crucial. I enjoy activities such as hiking and camping.</p>
+        <h3>Passion for Cars</h3>
+        <p>As an automotive enthusiast, I am particularly interested in the development of electric vehicles and other eco-friendly transportation solutions.</p>
+        <img src="path/to/automotive-racing-image.jpg" alt="Automotive Racing" class="image">
+    </section>
+</body>
+</html>
